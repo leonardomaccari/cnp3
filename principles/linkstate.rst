@@ -303,7 +303,7 @@ When a link fails, the two routers attached to the link detect the failure by th
        A $\rightarrow$ B, B $\rightarrow$ A: 1 & A-0 [B:1];[D:1] \\
        A $\rightarrow$ D, D $\rightarrow$ A: 1 & B-0 [A:1];[C:1];[E:1] \\
        B $\rightarrow$ C, C $\rightarrow$ B: 1 & C-0 [B:1];[E:1] \\
-       B $\rightarrow$ E: 1, {\color{red}\sout{E $\rightarrow$ B: 1}} & D-0 [A:1];[E:1] \\
+       B $\rightarrow$ E: 1, {\color{red}{E $\rightarrow$ B: 1}} & D-0 [A:1];[E:1] \\
        C $\rightarrow$ E, E $\rightarrow$ C: 1 & {\color{red} E-1 [C:1];[D:1]} \\
        D $\rightarrow$ E, E $\rightarrow$ D: 1 & \\
        \end{tabular}};
